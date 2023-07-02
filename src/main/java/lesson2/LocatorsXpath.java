@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Locators2 {
+public class LocatorsXpath {
 
     private static class Data {
         private static final String validLogin = "Login";
