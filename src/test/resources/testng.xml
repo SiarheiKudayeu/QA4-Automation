@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTests Suite">
+    <test name="AllTestCases">
+        <classes>
+            <class name="lesson8.first.Test1">
+                <methods>
+                    <include name="checkPageTitle"/>
+                    <include name="checkSearch"/>
+                </methods>
+            </class>
+            <class name="lesson8.first.Test2"/>
+        </classes>
+    </test>
+</suite>
