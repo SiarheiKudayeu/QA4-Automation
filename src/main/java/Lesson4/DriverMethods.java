@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class DriverMethods {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\selen\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/kudayeusiarhei/Desktop/chromedriver/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");

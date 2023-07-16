@@ -80,5 +80,4 @@ public class Test1 extends BaseTest {
         int price = Integer.parseInt(priceElement.getText().split("\\.")[0]);
         assertEquals(price, 33);
     }
-
 }

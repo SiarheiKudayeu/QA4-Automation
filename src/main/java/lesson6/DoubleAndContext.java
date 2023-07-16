@@ -21,7 +21,7 @@ public class DoubleAndContext {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("https://demo.guru99.com/test/simple_context_menu.html");
-        //.context-menu-one.btn.btn-neutral
+       //.context-menu-one.btn.btn-neutral
         //button[@ondblclick='myFunction()']
         Actions actions = new Actions(driver);
         Thread.sleep(1000);
